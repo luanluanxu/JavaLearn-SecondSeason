@@ -2,20 +2,18 @@ package com.czxy.lzh;
 
 public class Student extends Person{
 
-    private String name;
-
     Student(String name) {
-        this.name = name;
+        super(name);
     }
 
     @Override
     void walk() {
-        System.out.println(name + "walking");
+        System.out.println(this.name + "walking");
     }
 
     @Override
     void eat() {
-        System.out.println(name + "eating");
+        System.out.println(this.name + "eating");
     }
 
     @Override
