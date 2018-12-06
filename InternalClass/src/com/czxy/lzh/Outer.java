@@ -1,6 +1,11 @@
 package com.czxy.lzh;
 
-public class Outer {
+public class Outer
+{
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     private int age;
     Outer(int age) {
         this.age = age;
