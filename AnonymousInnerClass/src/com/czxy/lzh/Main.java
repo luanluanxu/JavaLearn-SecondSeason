@@ -14,8 +14,11 @@ public class Main {
                 System.out.println("he is learning");
             }
         };
-        p.walk();
-        p.learn();
+        test(p);
 
+    }
+    public static void test(Person person) {
+        person.walk();
+        person.learn();
     }
 }
